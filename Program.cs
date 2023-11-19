@@ -6,14 +6,147 @@ namespace Gorbachev.Nikolay.Learn.CSharp
     {
         static void Main(string[] args)
         {
+            const DayOfWeek day1 = DayOfWeek.Monday;
+
+
+            /*
+            int Operation(int op, int a, int b)
+            {
+                switch (op)
+                {
+                    case 1:
+                        return a + b;
+                    case 2:
+                        return a - b;
+                    default:
+                        return op;
+                }
+            }
+
+            Console.WriteLine($"Результат операции: {Operation(6, 5,9)}");
+            */
+
+            /*
+            string a = "5";
+
+            switch (a)
+            {
+                case "1":
+                    Console.WriteLine(1);
+                    break;
+                case "5":
+                    Console.WriteLine(2);
+                    goto default;
+                case "Y":
+                    Console.WriteLine(3);
+                    break;
+                case "Привет":
+                    Console.WriteLine("Привет");
+                    break;
+                default:
+                    Console.WriteLine(10);
+                    break;
+            }
+            */
+
+            /*
+            int Fibonacci(int n)
+            {
+                if (n == 0 || n == 1)
+                {
+                    return n;
+                }
+                else
+                {
+                    return Fibonacci(n - 1) + Fibonacci(n - 2);
+                }
+            }
+
+            int CycleFibonacci(int n )
+            {
+                int result = 0;
+                int b = 1;
+                int tmp;
+
+                for (int i = 0; i < n; i++)
+                {
+                    tmp = result;
+                    result = b;
+                    b += tmp;
+                }
+                return result;
+            }
+
+            Console.WriteLine($"Четвертое число Фибаначчи = {CycleFibonacci(4)}");
+            */
+
+            /*
+            int Factorial (int n)
+            {
+                if (n == 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return n * Factorial(n - 1);
+                }
+            }
+            Console.WriteLine("Введи число:");
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Факториал числа {number} равен: {Factorial(number)}");
+            */
+
+            /*
+            void SumAllElements(params int[] numbers)
+            {
+                int result = 0;
+
+                foreach (int number in numbers)
+                {
+                    result += number;
+                }
+                Console.WriteLine(result);
+            }
+
+            void SumAllMassive(int[] numbers)
+            {
+                int result = 0;
+
+                foreach(int number in numbers)
+                {
+                    result += number;
+                }
+                Console.WriteLine(result);
+            }
+
+            int[] mass = { 1, 2, 3, 4, 5 };
+            //SumAllElements(1,3,6,3);
+            SumAllMassive (mass);
+            SumAllMassive(mass);
+            */
+
+            /*
+            int Increment(ref int n)
+            {
+                n++;
+                return n;
+            }
+
+            int number = 0;
+            Console.WriteLine($"До преобразований: {number}");
+            Increment(ref number);
+            Console.WriteLine($"После преобразований: {number}");
+            */
+
+            /*
             string ConvertToText(int number)
             {
                 return Convert.ToString(number);
             }
 
             Console.WriteLine(ConvertToText(34));
-
-            
+            */
 
             /*
             int[] numbers = { -1, -2, -5, -14, 8, 6, 7, 5 };
