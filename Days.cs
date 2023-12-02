@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace Gorbachev.Nikolay.Learn.CSharp
 {
-    internal class Days
+    class Days
     {
-        enum DaysOfWeek : int
+        enum DaysOfWeek
         {
             Monday,
             Tuesday,
-            Wednesday
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
         }
     }
 }

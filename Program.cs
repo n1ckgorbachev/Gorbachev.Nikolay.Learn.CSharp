@@ -6,7 +6,8 @@ namespace Gorbachev.Nikolay.Learn.CSharp
     {
         static void Main(string[] args)
         {
-            const DayOfWeek day1 = DayOfWeek.Monday;
+            Dog dog = new Dog();
+            dog.Bark();
 
 
             /*
