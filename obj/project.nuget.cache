@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1hVZm0AkIUs/xUErL+AsIp/xQaheLieTvvTxA4eLfKXYSFkhNu6cRgA3KxoCrvS2LIiyCRZfp24n0AwV0VfXqA==",
+  "dgSpecHash": "pfP77EnUAUqcnMv+IXyTpqbJMkyXXFtdnc8zZ4ikWlCddg0WKL44MRj0IrnufjJskE2i72jZ/CTcik6X1RX/tA==",
   "success": true,
   "projectFilePath": "C:\\Users\\n1kko\\source\\repos\\Gorbachev.Nikolay.Learn.CSharp\\Gorbachev.Nikolay.Learn.CSharp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\n1kko\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\n1kko\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\n1kko\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\n1kko\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

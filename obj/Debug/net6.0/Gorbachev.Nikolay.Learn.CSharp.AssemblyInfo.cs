@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gorbachev.Nikolay.Learn.CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38bb8b1b5071277269e1cff15b2f2a8e47ac5471")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gorbachev.Nikolay.Learn.CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gorbachev.Nikolay.Learn.CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

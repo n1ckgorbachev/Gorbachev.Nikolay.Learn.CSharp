@@ -6,8 +6,9 @@ namespace Gorbachev.Nikolay.Learn.CSharp
     {
         static void Main(string[] args)
         {
-            Dog dog = new Dog();
-            dog.Bark();
+            Days dats = new Days();
+            Console.WriteLine(dats.Print());
+            Console.WriteLine(dats.Show());
 
 
             /*

@@ -18,5 +18,12 @@ namespace Gorbachev.Nikolay.Learn.CSharp
             Saturday,
             Sunday
         }
+
+        public string Print()
+        {
+            return "Hello";
+        }
+
+        public string Show() => "Hello";
     }
 }
